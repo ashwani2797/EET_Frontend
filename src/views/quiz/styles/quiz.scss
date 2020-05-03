@@ -1,0 +1,42 @@
+
+.questionSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.card {
+    max-width: 78rem;
+    margin: 2rem;
+}
+
+.questionIndex {
+    color: #244938;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.group {
+    margin: 1px 0;
+}
+ .formControl {
+    margin: 0.234rem;
+}
+
+.submitButton {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.disableselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge*/
+     user-select: none;          /* Non-prefixed version, currently 
+                                    not supported by any browser */
+  }

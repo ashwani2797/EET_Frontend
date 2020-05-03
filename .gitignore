@@ -1,0 +1,80 @@
+logs
+project/project
+project/target
+target
+.history
+.classpath
+.project
+.settings
+.target
+.idea
+.idea_modules
+RUNNING_PID
+# Directories #
+/build/
+/bin/
+# OS Files #
+.DS_Store
+# Package Files #
+*.war
+*.ear
+*.db
+######################
+# Windows
+######################
+# Windows thumb file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+######################
+# OSX
+######################
+.svn
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+# general
+dump
+/*.iml
+/out
+
+# Eclipse
+.cache
+.scala_dependencies
+# IDEA
+/.idea_modules
+
+project/boot
+project/plugins/target
+# general
+# Eclipse
+# IDEA
+/Reports/
+# node_modules
+node_modules/
+node/
+npm-debug.log
+/cssstats/
+
+# build
+src/main/resources/static/js/react/dist/
+src/main/resources/templates/react/*.html
+checkstyle-js.xml
+
+#compass
+.sass-cache
+/checkstyle-js.xml
+etc/
+/src/main/resources/templates/react/auth.html
+!/frontend-v2/src/scripts/enums/
+!/frontend-v2/src/Routes.jsx
+
+#build
+src/dist/
+
+# yarn
+yarn-error.log
+/yarn.lock
+/.npmrc
